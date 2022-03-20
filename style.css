@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    cursor: url('static/cursor_red.png'), auto;   
+}
+
+body
+{
+    box-sizing: border-box;
+}
+.container
+{
+    background-image: url("static/main.jpeg");
+    background-size: cover;
+    /* box-sizing: border-box; */
+}
+
+header
+{
+    position: fixed;
+    color: white;
+    width: 100%;
+    background-color: black;
+    border: solid 1px;
+}
+
+header #menu
+{
+    list-style: none;
+    display: inline-flex;
+    /* padding-left: 25%; */
+    border: solid 1px;
+}
+
+/* #container
+{
+    display: block;
+    margin-bottom: 10%;
+    height: 100%;
+    background-image: url("static/main.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 1px;
+} */
+
+footer
+{
+    position: relative;
+    width: 99.8%;
+    background-color: black;
+    border: solid 1px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#name
+{
+    display: block;
+    position: relative;
+    text-align: right;
+    right: 1%;
+    font: 2em Times, 'Times New Roman', sans-serif;
+}
+
+
+.menu_item
+{
+    
+    display: block;
+    /* text-align: center; */
+    width: auto;
+    float: left;
+    margin-right: 5%;
+    font-family: Cursive, 'Lucida Handwriting', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    border: solid 1px;
+}
+
+.menu_item:hover
+{
+    color: red;
+    cursor: url('static/cursor_white.png'), auto;
+    border-bottom: solid red 1px;  
+}
+
+#quote
+{
+    background-color: gray;
+    color:wheat;
+}
+
+#container
+{
+    color: white;
+}
+
+a:link,
+a:visited,
+a:active
+{
+    text-decoration: none;
+    cursor: url("static/cursor_white.png"), auto;
+    color: white;
+}
+a:hover
+{
+    color: red;
+}
+
+.letter:hover
+{
+    color: red;
+    cursor: url('static/cursor_white.png'), auto;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
