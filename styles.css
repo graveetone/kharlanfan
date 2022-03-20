@@ -2,20 +2,21 @@
 {
     margin: 0;
     padding: 0;
+    background-color: rgb(10, 10, 10);
 }
 
-body
+.main_photo
 {
-    background-image: url("static/main.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* display: block; */
+    margin-top: -0.5%;
+    width: 100%;
 }
 
 nav
 {
     width: 100%;
     height: 60px;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 
 nav p
@@ -31,19 +32,96 @@ nav p
 nav ul
 {
     float: left;
+
 }
 
 nav ul li
 {
     float: left;
     list-style: none;
+    position: relative;
 }
 
 nav ul li a
 {
+    display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-    padding: 24px 14px;
+    font-size: 16px;
+    padding: 24px 40px;
     color: white;
     text-decoration: none;
+}
+
+nav ul li ul
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(10, 10, 10);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -5%;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+}
+
+nav ul li ul li a
+{
+    padding: 12px 20px;
+}
+
+nav ul li ul li a:hover, nav ul li a:hover
+{
+    color: red;
+}
+footer
+{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.biography
+{
+    /* padding: 5%; */
+    font-size: 24px;
+    background-color: rgb(10, 10, 10);
+    margin: 5%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
+}
+
+.biography p
+{
+    background-color: rgb(10, 10, 10);
+}
+
+.biography p span
+{
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(10, 10, 10);
+}
+
+
+.biography span
+{
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(10, 10, 10);
+}
+.logo
+{
+    width: 50px;
+    height: 50px;
+    float:right;
+    /* margin-left:%; */
 }
