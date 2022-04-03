@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     background-color: rgb(10, 10, 10);
-    /* color: #fff; */
 }
 
 section img
@@ -27,17 +26,13 @@ nav
 {
     color: white;
     display: flex;
-    /* justify-content: flex-end; */
-    margin: 20px 40px;
+    margin: 20px;
 }
 
 header
 {
-    /* height: 1100px; */
-    /* overflow: visible; */
     width: 100%;
     z-index: 1;
-    
 }
 
 nav p
@@ -54,7 +49,6 @@ nav ul
 {
     float: left;
     display: flex;
-    /* overflow: auto; */
     margin: 0 auto;
     max-width: 1100px;
 
@@ -83,7 +77,6 @@ nav ul li ul
     position: absolute;
     background-color: rgb(10, 10, 10);
     border-radius: 0px 0px 10px 10px;
-    /* margin-top: -5%; */
 }
 
 nav ul li:hover ul
