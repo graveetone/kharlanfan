@@ -1,0 +1,125 @@
+@keyframes left-right-slider {
+    from
+    {
+        transform: translateX(-100%);
+    }
+    to
+    {
+        transform: translateX(0);
+    }    
+}
+@keyframes right-left-slider {
+    from
+    {
+        transform: translateX(100%);
+    }
+    to
+    {
+        transform: translateX(0);
+    }    
+}
+@keyframes top-bottom-slider {
+    from
+    {
+        transform: translateY(-100%);
+    }
+    to
+    {
+        transform: translateY(0);
+    }    
+}
+@keyframes bottom-top-slider {
+    from
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0);
+    }    
+}
+
+@keyframes flipper {
+    from
+    {
+        transform: rotateY(180deg);
+    }
+    to
+    {
+        transform: rotateY(0);
+    }    
+}
+
+@keyframes line-runner {
+    from
+    {
+        border-bottom: 2px solid rgba(255, 0, 0, 0.8);
+    }
+    to
+    {
+        border-bottom: 0px solid;
+    }    
+}
+
+@keyframes rotater {
+    from
+    {
+        transform: rotate(90deg);
+    }
+    to
+    {
+        transform: rotate(0);
+    }    
+}
+
+@keyframes red-lighter {
+    from
+    {
+        box-shadow: 1px 1px 15px 1px rgba(255, 0, 0, 0.1);
+    }
+    to
+    {
+        box-shadow: 1px 1px 15px 1px rgba(255, 0, 0, 1);
+    }    
+}
+
+.running-bottom
+{
+    animation: 3s ease line-runner;
+}
+.left-right-slide
+{
+    animation: 1s ease left-right-slider;
+}
+.right-left-slide
+{
+    animation: 1s ease right-left-slider;
+}
+.top-bottom-slide
+{
+    animation: 1s ease top-bottom-slider;
+}
+.bottom-top-slide
+{
+    animation: 1s ease bottom-top-slider;
+}
+
+.hover-flip:hover
+{
+    animation: 1s ease-out flipper infinite alternate-reverse;
+}
+
+.rotate
+{
+    animation: 1s ease-out rotater;
+}
+
+.card-left
+{
+    animation: red-lighter 1s infinite alternate-reverse, 1s ease left-right-slider;
+}
+
+.card-right
+{
+    animation: red-lighter 1s infinite alternate-reverse, 1s ease right-left-slider;    
+}

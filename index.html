@@ -7,49 +7,74 @@
     <title>Ольга Харлан</title>
     <link rel="icon" href="static/image.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <header>
-        <nav>
+    <header class="container navbar">
+        <nav class="right-left-sflide">
             <ul>
-                <li ><a id="current_item" href="index.html">Головна</a></li>
-                <li><a href="battles.html">Турніри &#8628;</a>
-                <ul>
-                    <li><a href="timetable.html">Розклад ігор</a></li>
-                    <li><a href="raiting.html">Рейтинг</a></li>
-                </ul>
+                <li><a class="hover-flip" id="current_item" href="index.html">Головна</a></li>
+                <li ><a class="hover-flip" href="battles.html">Турніри &#8628;</a>
+                    <ul>
+                        <li><a href="timetable.html">Розклад ігор</a></li>
+                        <li><a href="raiting.html">Рейтинг</a></li>
+                    </ul>
                 </li>
-                <li><a href="news.html">Новини</a></li>
-                <li><a href="fans.html">Спільнота фанів</a></li>
-                <li><a href="contacts.html">Контакти</a></li>
-                <li><a href="admin.html">Адмін</a></li>
-            </ul>
-            <p>Ольга Харлан 
-            </p>
-                <img class="logo" src="static/image.png">
+                <li><a class="hover-flip" href="news.html">Новини</a></li>
+                <li><a class="hover-flip" href="fans.html">Спільнота фанів</a></li>
+                <li><a class="hover-flip" href="contacts.html">Контакти</a></li>
+                <li><a class="hover-flip" href="admin.html">Адмін</a></li>
+            </ul>    
+                <div class="logo">
+                    <h1 class="right-left-slide bg-transparent"> Ольга &#160; </h1> 
+                    <img class="rotate scale" src="static/logo.png" alt="">
+                    <h1 class="left-right-slide bg-transparent"> &#160; Харлан </h1>
+                </div>
+        
         </nav>
     </header>
-    <div id="main-container">
-    <img class="main_photo" src="static/main.jpeg" alt="Olha Harlan photo">
-    <section class="biography">
-        <h2><span>Біографія</span></h2>
-        <p><span>О</span>льга Геннадіївна Харлан (нар. 4 вересня 1990, Миколаїв, Українська РСР, СРСР) — українська фехтувальниця на шаблях, олімпійська чемпіонка 2008 року та срібна призерка Олімпійських ігор 2016 року в командній першості, бронзова призерка Олімпійських ігор 2012 та 2016 років в індивідуальній першості, шестиразова чемпіонка світу (2013, 2014, 2017, 2019 роки в індивідуальній першості, 2009 та 2013 роки в командній першості), восьмиразова чемпіонка Європи (2009, 2011, 2012, 2013, 2014, 2019 роки в індивідуальній першості, 2009 та 2010 роки в командній першості), заслужений майстер спорту з фехтування.</p>
-        <p>29 березня 2016 року ім'я Ольги Харлан було вписано у міжнародний Зал слави FIE.</p>
-        <p>За свою спортивну кар'єру Ольга Харлан виграла чотири олімпійські медалі, п'ятнадцять медалей чемпіонатів світу та двадцять медалей чемпіонатів Європи, що є рекордом для українських фехтувальників. Також Ольга є чемпіонкою Європейських ігор (2015 рік) та Універсіади (2011 та 2013 роки). П'ять разів Ольга Харлан перемагала у загальному заліку Кубка світу (2013, 2014, 2018, 2019, 2020 роки).</p>
-        <p>НОК України чотири рази визнавав її найкращою спортсменкою року (2008, 2009, 2016, 2017). Загалом на нагородженнях найкращих спортсменів України вона отримала одинадцять нагород, що є рекордом. Також Ольга дванадцять разів визнавалася найкращою спортсменкою місяця, що також є рекордом для українських спортсменів.</p>
-        <p>Представниця клубів «Спартак» та «Динамо» (Миколаїв), а також службовець СБУ. Входить до десятки найкращих спортсменів ФСТ «Динамо» України з олімпійських видів спорту 2012 року. Тренери — Артем Скороход, Гарнік Давидян. Перший тренер — Анатолій Шлікар.</p>
-    </section>
-    <section class="last-victory">
-        <img class="main_photo" src="static/victory.jpg">
-        <p>
-            Остання перемога: <em>Гранд-прі, Монтреаль, Канада, січень 2020.</em><br>
+    <main class="grid grid-1 m-4 p-4">
+        <section class="container biography text-center">
+        <div class="card card-left">
+            <img src="static/main.jpeg" alt="">
+            <h2 class="xl"><span>Біографія</span></h2>
+            <p class="md"><span>О</span>льга Геннадіївна Харлан (нар. 4 вересня 1990, Миколаїв, Українська РСР, СРСР) — українська фехтувальниця на шаблях, олімпійська чемпіонка 2008 року та срібна призерка Олімпійських ігор 2016 року в командній першості, бронзова призерка Олімпійських ігор 2012 та 2016 років в індивідуальній першості, шестиразова чемпіонка світу (2013, 2014, 2017, 2019 роки в індивідуальній першості, 2009 та 2013 роки в командній першості), восьмиразова чемпіонка Європи (2009, 2011, 2012, 2013, 2014, 2019 роки в індивідуальній першості, 2009 та 2010 роки в командній першості), заслужений майстер спорту з фехтування.
+            <br>
+            29 березня 2016 року ім'я Ольги Харлан було вписано у міжнародний Зал слави FIE.
+            <br>
+            За свою спортивну кар'єру Ольга Харлан виграла чотири олімпійські медалі, п'ятнадцять медалей чемпіонатів світу та двадцять медалей чемпіонатів Європи, що є рекордом для українських фехтувальників. Також Ольга є чемпіонкою Європейських ігор (2015 рік) та Універсіади (2011 та 2013 роки). П'ять разів Ольга Харлан перемагала у загальному заліку Кубка світу (2013, 2014, 2018, 2019, 2020 роки).
+            <br>
+            НОК України чотири рази визнавав її найкращою спортсменкою року (2008, 2009, 2016, 2017). Загалом на нагородженнях найкращих спортсменів України вона отримала одинадцять нагород, що є рекордом. Також Ольга дванадцять разів визнавалася найкращою спортсменкою місяця, що також є рекордом для українських спортсменів.
+            <br>
+            Представниця клубів «Спартак» та «Динамо» (Миколаїв), а також службовець СБУ. Входить до десятки найкращих спортсменів ФСТ «Динамо» України з олімпійських видів спорту 2012 року. Тренери — Артем Скороход, Гарнік Давидян. Перший тренер — Анатолій Шлікар.</p>
+        </div>   
+    </section> 
+        <section class="container last-victory text-center">
+        <div class="card card-right">
+            <img src="static/victory.jpg" alt="">
+            <h2 class="xl"><span>Остання перемога</span></h2>
+            <p class="md">
+                Остання перемога: <em>Гранд-прі, Монтреаль, Канада, січень 2020.</em><br>
             За результатами 2020 року Ольга Харлан, з 297 балами, вп'яте здобула перемогу в загальному заліку Кубка світу з 297 балами
-        </p>
-    </section>
-    </div>
-    <footer>
-        <h3>Ольга Харлан 2022</h3><br>qubeetStudio
+            </p>
+        </div>   
+    </section> 
+    </main>
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Olha Harlan</h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/people/Olga-Kharlan/100063495465285/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://twitter.com/olgakharlan1990"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://www.instagram.com/olgakharlan/"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
