@@ -124,15 +124,20 @@ nav a:hover
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    /* main
+    {
+        display: flex;
+        justify-content: center;
+    } */
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
     main
     {
         display: flex;
         justify-content: center;
     }
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
 
 }
 
