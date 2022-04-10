@@ -146,13 +146,13 @@ nav a:hover
 
     p.md
     {
-        font-size: smaller;
+        font-size: large;
     }
 
     section.m-2
     {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: -1rem;
+        margin-right: -1rem;
     }
 
     nav
@@ -160,6 +160,10 @@ nav a:hover
         height: 0;
     }
 
+    div.p-4
+    {
+        padding: 1rem;
+    }
 }
 
 /* Custom, iPhone Retina */ 
