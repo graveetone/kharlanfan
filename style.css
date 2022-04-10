@@ -111,3 +111,11 @@ nav a:hover
     background-color: rgb(10, 10, 10);
     color: red;
 }
+
+@media screen and (max-width: 400px)
+{
+    *
+    {
+        display: none;
+    }
+} 
