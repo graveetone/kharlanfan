@@ -164,6 +164,11 @@ nav a:hover
     {
         padding: 1rem;
     }
+
+    nav ul
+    {
+        display: block;
+    }
 }
 
 /* Custom, iPhone Retina */ 
