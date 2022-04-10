@@ -138,6 +138,11 @@ nav a:hover
         display: flex;
         justify-content: center;
     }
+    
+    .xl
+    {
+        font-size: 2rem;
+    }
 
 }
 
