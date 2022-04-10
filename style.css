@@ -139,9 +139,25 @@ nav a:hover
         justify-content: center;
     }
     
-    .xl
+    h2.xl
     {
         font-size: 2rem;
+    }
+
+    p.md
+    {
+        font-size: smaller;
+    }
+
+    section.m-2
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    nav
+    {
+        height: 0;
     }
 
 }
