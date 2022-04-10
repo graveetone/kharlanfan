@@ -112,10 +112,10 @@ nav a:hover
     color: red;
 }
 
-@media screen and (max-width: 400px)
+/* @media screen and (max-width: 400px)
 {
     *
     {
         display: none;
     }
-} 
+}  */
