@@ -1,0 +1,54 @@
+@media only screen and (max-width: 977px) {
+    .sm {
+        font-size: 0.5rem;
+    }
+    .md {
+        font-size: 1rem;
+    }
+    .lg {
+        font-size: 1.5rem;
+    }
+    .xl {
+        font-size: 2.5rem;
+    }
+    .flex-container {
+        /* padding-left: 30%; */
+        /* align-self: center; */
+        /* width: 200%; */
+        /* display: flex; */
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        /* max-width: 56%; */
+        min-width: 60%;
+        width: auto;
+        background-color: var(--page-back);
+        /* display: none; */
+    }
+    .flex-container li {
+        width: 100%;
+        display: none;
+    }
+    .logo {
+        /* display: flex !important; */
+        /* justify-content: center !important; */
+        /* margin-left: 40%; */
+        /* margin-right: 40%; */
+        /* text-align: center; */
+        /* right: auto; */
+        /* left: auto; */
+        /* display: ; */
+        /* justify-content: center; */
+    }
+    nav {
+        background-color: transparent;
+        /* width: 50%; */
+    }
+    .menu-button {
+        margin: 15px;
+        width: 50%;
+        height: 50%;
+        position: fixed;
+    }
+}

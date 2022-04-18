@@ -1,6 +1,10 @@
-let menu_button = document.getElementById("menu-button");
-let menu = document.getElementsByClassName("flex-container")[0];
-menu_button.addEventListener('click', () => {
-    // alert();
-menu.style.display =  (menu.style.display === 'none') ? 'flex' : 'none';
-});
+let menu_button = document.getElementsByClassName("menu-button")[0];
+let menu = document.getElementsByClassName("flex-container")[0].getElementsByTagName("li");
+
+function displayLi(switcher) {
+    for (const li of document.querySelectorAll('.flex-container li')) {
+        li.style.display = switcher ? 'flex' : 'none';
+    }
+}
+menu_button.addEventListener('click', () => { displayLi(true) });
+document.querySelector("main").addEventListener('click', () => { displayLi(false) });

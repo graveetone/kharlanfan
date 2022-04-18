@@ -104,7 +104,8 @@ main {
     text-align: center;
 }
 
-img:not(.logo img) {
+img:not(.logo img,
+.menu-button img) {
     width: 90%;
     border-radius: 10px;
     margin-bottom: 30px;

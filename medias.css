@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .sm {
         font-size: 0.5rem;
     }
@@ -13,7 +13,7 @@
     }
     /* ul li  */
     .flex-container {
-        /* display: none; */
+        display: flex;
         flex-direction: column;
         width: 50%;
         align-self: center;
