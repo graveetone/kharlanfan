@@ -27,6 +27,11 @@
     border: 1px solid #fff;
 }
 
+.btn-danger
+{
+    background-color: red;
+    color: black;
+}
 .btn:hover{
     transform: scale(.98);
 }

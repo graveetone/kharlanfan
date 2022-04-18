@@ -108,3 +108,21 @@ nav a:hover
 {
     display: none;
 }
+
+.flex-container-col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container form input:not([type='button'])
+{
+    margin: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-around;
+}
+
