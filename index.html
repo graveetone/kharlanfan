@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="medias.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,27 +19,26 @@
 <body>
     <header>
         <nav class="right-left-sflide">
-            <ul class="flex-container">
-                <li><a class="hover-flip" id="current_item" href="index.html">Головна</a></li>
-                <li><a class="hover-flip" href="battles.html">Турніри &#8628;</a>
-                    <ul>
-                        <li><a href="timetable.html">Розклад ігор</a></li>
-                        <li><a href="raiting.html">Рейтинг</a></li>
-                    </ul>
-                </li>
-                <li><a class="hover-flip" href="news.html">Новини</a></li>
-                <li><a class="hover-flip" href="fans.html">Прихильники</a></li>
-                <li><a class="hover-flip" href="contacts.html">Контакти</a></li>
-                <li><a class="hover-flip" href="admin.html">Адмін</a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li>
-                    <!-- <span class="logo"> -->
-                        <h1 class="right-left-slide bg-transparent"> Ольга &#160; </h1> 
-                        <img class="logo rotate scale" src="static/logo.png" alt="">
-                        <h1 class="left-right-slide bg-transparent"> &#160; Харлан </h1>
-                    <!-- </span> -->
-                </li>
+            <ul> <div class="flex-container">
+                    <li><a class="hover-flip" id="current_item" href="index.html">Головна</a></li>
+                    <li><a class="hover-flip" href="battles.html">Турніри &#8628;</a>
+                        <ul>
+                            <li><a href="timetable.html">Розклад ігор</a></li>
+                            <li><a href="raiting.html">Рейтинг</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="hover-flip" href="news.html">Новини</a></li>
+                    <li><a class="hover-flip" href="fans.html">Прихильники</a></li>
+                    <li><a class="hover-flip" href="contacts.html">Контакти</a></li>
+                    <li><a class="hover-flip" href="admin.html">Адмін</a></li>
+                    
+                <span class="logo">
+                    <h1 class="right-left-slide bg-transparent"> Ольга &#160; </h1>
+                    <img class="rotate scale" src="static/logo.png" alt="">
+                    <h1 class="left-right-slide bg-transparent"> &#160; Харлан </h1>
+                </span>
+            </div>
+                <div class="menu-button" id="menu-button"></div>
             </ul>
         </nav>
     </header>
@@ -46,7 +46,7 @@
         <section class="m-2 container biography text-center">
             <div class="my-2 p-2 card card-left">
                 <img src="static/main.jpeg" alt="">
-                <h2 class="lg"><span>Біографія</span></h2>
+                <h2 class="xl"><span>Біографія</span></h2>
                 <p class="md"><span>О</span>льга Геннадіївна Харлан (нар. 4 вересня 1990, Миколаїв, Українська РСР,
                     СРСР) — українська фехтувальниця на шаблях, олімпійська чемпіонка 2008 року та срібна призерка
                     Олімпійських ігор 2016 року в командній першості, бронзова призерка Олімпійських ігор 2012 та 2016
@@ -100,6 +100,8 @@
             </div>
         </div>
     </footer>
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
 </body>
 
 </html>
