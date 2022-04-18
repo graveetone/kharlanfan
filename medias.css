@@ -1,39 +1,35 @@
-@media only screen and (max-width : 800px)
-{
-    .sm{
+@media only screen and (max-width: 800px) {
+    .sm {
         font-size: 0.5rem;
     }
-    
-    .md{
+    .md {
         font-size: 1rem;
     }
-    
-    .lg{
+    .lg {
         font-size: 1.5rem;
     }
-    
-    .xl{
+    .xl {
         font-size: 2.5rem;
     }
     /* ul li  */
-    .flex-container
-    {
-        display: none;
+    .flex-container {
+        /* display: none; */
         flex-direction: column;
-       
+        width: 50%;
+        align-self: center;
     }
-
-    .logo
-    {
-        display: flex;
+    ul {
+        flex-wrap: wrap-reverse;
+        /* width: 100%; */
+    }
+    .logo {
+        display: none;
         margin-top: 5%;
         /* margin-left: 35%; */
         /* justify-items: flex-end; */
         /* align-items: center; */
     }
-
-    .menu-button
-    {
+    .menu-button {
         margin: 3%;
         width: 32px;
         height: 32px;
@@ -44,6 +40,5 @@
         /* background-size: 90%; */
         /* background-position: right center; */
         background-repeat: no-repeat;
-        
     }
 }
