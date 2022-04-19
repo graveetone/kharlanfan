@@ -127,3 +127,5 @@ img:not(.logo img,
     right: 15px;
     top: 15px;
 }
+
+.logo:hover {}

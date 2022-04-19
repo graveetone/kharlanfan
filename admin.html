@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,47 +10,56 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
-    <header class="container navbar">
-        <nav class="right-left-sflide">
-            <ul>
-                <li><a class="hover-flip" href="index.html">Головна</a></li>
-                <li ><a class="hover-flip" href="battles.html">Турніри &#8628;</a>
-                    <ul>
-                        <li><a href="timetable.html">Розклад ігор</a></li>
-                        <li><a href="raiting.html">Рейтинг</a></li>
-                    </ul>
-                </li>
-                <li><a class="hover-flip" href="news.html">Новини</a></li>
-                <li><a class="hover-flip" href="fans.html">Спільнота фанів</a></li>
-                <li><a class="hover-flip" href="contacts.html">Контакти</a></li>
-                <li><a class="hover-flip" id="current_item" href="admin.html">Адмін</a></li>
-            </ul>    
-                <div class="logo">
-                    <h1 class="right-left-slide bg-transparent"> Ольга &#160; </h1> 
-                    <img class="rotate scale" src="static/logo.png" alt="">
-                    <h1 class="left-right-slide bg-transparent"> &#160; Харлан </h1>
-                </div>
-        
-        </nav>
+    <header>
+        <div class="menu-wrap">
+            <div class="menu-button">
+                <img src="static/menu.png" alt="">
+            </div>
+            <nav>
+                <ul class="flex-container">
+                    <li><a class="hover-flip" href="index.html">Головна</a></li>
+                    <li><a href="#">Турніри <b> <em>></em> </b></a>
+                        <ul class="submenu-wrap">
+                            <li><a class="hover-flip" href="timetable.html">Розклад</a></li>
+                            <li><a class="hover-flip" href="raiting.html">Рейтинг</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="hover-flip" href="news.html">Новини</a></li>
+                    <li><a class="hover-flip" href="fans.html">Прихильники</a></li>
+                    <li><a class="hover-flip" href="contacts.html">Контакти</a></li>
+                    <li><a class="hover-flip" id="current_item" href="admin.html">Адмін</a></li>
+                    <div class="logo">
+                        <img class="sword-left" src="static/sword.png" alt="">
+                        <img class="sword-right" src="static/sword_mirrored.png" alt="">
+                    </div>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="grid grid-1 m-4 p-4">
+    <main>
+
     </main>
-    <footer class="footer bg-dark py-5">
-        <div class="container grid grid-3">
+    <footer class="footer m-3 bg-dark py-3">
+        <div class="flex">
             <div>
                 <h1>Olha Kharlan</h1>
                 <p>Copyright &copy; 2022</p>
             </div>
             <div class="social">
-                <a href="https://www.facebook.com/people/Olga-Kharlan/100063495465285/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.facebook.com/people/Olga-Kharlan/100063495465285/"><i
+                        class="fab fa-facebook fa-2x"></i></a>
                 <a href="https://twitter.com/olgakharlan1990"><i class="fab fa-twitter fa-2x"></i></a>
                 <a href="https://www.instagram.com/olgakharlan/"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
         </div>
     </footer>
 </body>
+<script src="script.js"></script>
+
 </html>

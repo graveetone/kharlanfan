@@ -10,48 +10,40 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="medias.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
     <header>
-        <nav class="right-left-sflide">
-            <ul> <div class="flex-container">
+        <div class="menu-wrap">
+            <div class="menu-button">
+                <img src="static/menu.png" alt="">
+            </div>
+            <nav>
+                <ul class="flex-container">
                     <li><a class="hover-flip" href="index.html">Головна</a></li>
-                    <li><a class="hover-flip" href="battles.html">Турніри &#8628;</a>
-                        <ul>
-                            <li><a href="timetable.html">Розклад ігор</a></li>
-                            <li><a href="raiting.html">Рейтинг</a></li>
+                    <li><a href="#">Турніри <b> <em>></em> </b></a>
+                        <ul class="submenu-wrap">
+                            <li><a class="hover-flip" href="timetable.html">Розклад</a></li>
+                            <li><a class="hover-flip" href="raiting.html">Рейтинг</a></li>
                         </ul>
                     </li>
                     <li><a class="hover-flip" href="news.html">Новини</a></li>
                     <li><a class="hover-flip" id="current_item" href="fans.html">Прихильники</a></li>
                     <li><a class="hover-flip" href="contacts.html">Контакти</a></li>
                     <li><a class="hover-flip" href="admin.html">Адмін</a></li>
-                    
-                <span class="logo">
-                    <h1 class="right-left-slide bg-transparent"> Ольга &#160; </h1>
-                    <img class="rotate scale" src="static/logo.png" alt="">
-                    <h1 class="left-right-slide bg-transparent"> &#160; Харлан </h1>
-                </span>
-            </div>
-                <div class="menu-button" id="menu-button"></div>
-            </ul>
-        </nav>
-    </header>
-    <main class="grid grid-1">
-        <div class="form-container flex-container-col m-4">
-            <form action="">
-                <textarea class="text-area" placeholder="Коментар"> </textarea>
-                <br>
-                <input type="text" placeholder="Нікнейм">
-                <br>
-                <input type="button" class="btn btn-danger" name="" id="post-button" value="Опублікувати">
-            </form>
+                    <div class="logo">
+                        <img class="sword-left" src="static/sword.png" alt="">
+                        <img class="sword-right" src="static/sword_mirrored.png" alt="">
+                    </div>
+                </ul>
+            </nav>
         </div>
+    </header>
+    <main>
+
     </main>
     <footer class="footer m-3 bg-dark py-3">
         <div class="flex">
@@ -67,8 +59,7 @@
             </div>
         </div>
     </footer>
-    <!-- SCRIPTS -->
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 
 </html>
