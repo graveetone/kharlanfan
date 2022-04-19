@@ -7,4 +7,4 @@ function displayLi(switcher) {
     }
 }
 menu_button.addEventListener('click', () => { displayLi(true) });
-document.querySelector("main").addEventListener('click', () => { displayLi(false) });
+document.querySelector(".logo").addEventListener('click', () => { displayLi(false) });
