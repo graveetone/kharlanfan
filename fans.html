@@ -43,7 +43,18 @@
         </div>
     </header>
     <main>
+        <div class="card card-fans">
+            <div class="form">
+                <form action="">
+                    <input type="text" id='nickname' placeholder="Нікнейм"> <br>
+                    <textarea name="" id="comment" rows="10" placeholder="Коментар"></textarea> <br>
+                    <input type="button" id='submit-comment' class="btn btn-dark p-2" value="Надіслати"><br>
+                </form>
+            </div>
+        </div>
+        <div id="comments">
 
+        </div>
     </main>
     <footer class="footer m-3 bg-dark py-3">
         <div class="flex">
@@ -61,5 +72,6 @@
     </footer>
 </body>
 <script src="script.js"></script>
+<script src="comments.js"></script>
 
 </html>

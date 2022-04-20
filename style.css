@@ -107,18 +107,25 @@ main {
     align-items: center;
     justify-content: center;
     width: 70%;
-    padding: 30px 15px;
+    padding: 15px 15px;
     font-family: "El Messiri", sans-serif;
     font-size: 2em;
     margin-top: 60px;
     text-align: center;
 }
 
-img:not(.logo img,
-.menu-button img) {
+img {
     width: 90%;
     border-radius: 10px;
     margin-bottom: 30px;
+}
+
+.logo img,
+.menu-button img {
+    width: 32px;
+    height: 32px;
+    border-radius: 0;
+    margin-bottom: 0;
 }
 
 .logo {
@@ -128,4 +135,65 @@ img:not(.logo img,
     top: 15px;
 }
 
-.logo:hover {}
+
+/* fans.html */
+
+.card-fans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+form input[type='text'],
+textarea {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid var(--page-back);
+    background-color: var(--card-back);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type='text']:focus,
+textarea:focus {
+    outline: 1px solid var(--page-back);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+}
+
+#comments {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.comment {
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    /* border-radius: 10px; */
+    /* background-color: var(--card-back); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 70%; */
+    /* max-width: 80%; */
+    /* min-width: 50%; */
+    /* padding: 15px 15px; */
+    /* font-family: "El Messiri", sans-serif; */
+    /* margin-top: 60px; */
+    /* text-align: center; */
+}
+
+a .fa-arrow-turn-right {
+    display: none;
+}
+
+a .fa-arrow-turn-down {
+    display: inline;
+}

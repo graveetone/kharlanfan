@@ -3,13 +3,19 @@
     border: 1px solid #fff;
 }
 
-.btn-danger {
-    background-color: red;
-    color: black;
+.btn-dark {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border: solid 1px rgb(10, 10, 10);
 }
 
 .btn:hover {
     transform: scale(.98);
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 10px;
 }
 
 
@@ -31,8 +37,7 @@
     color: white;
 }
 
-.bg-dark,
-.btn-dark {
+.bg-dark {
     background-color: var(--dark-color);
     color: white;
 }

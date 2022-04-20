@@ -18,9 +18,13 @@
         width: auto;
         background-color: var(--page-back);
     }
+    .flex-container header ul {
+        align-items: center;
+    }
     .flex-container li {
         width: 100%;
         display: none;
+        /* border-bottom: 1px white solid; */
     }
     nav {
         background-color: transparent;
@@ -35,11 +39,17 @@
     }
     nav ul li ul {
         /* display: none; */
-        /* border: 1px white solid; */
+        border: 1px white solid;
         position: absolute;
         top: 68px;
-        left: 140px;
+        left: 150px;
         /* width: inherit; */
         /* width: 13%; */
+    }
+    a .fa-arrow-turn-right {
+        display: inline;
+    }
+    a .fa-arrow-turn-down {
+        display: none;
     }
 }
