@@ -37,7 +37,6 @@ nav {
 
 nav ul li {
     list-style: none;
-    /* position: relative; */
 }
 
 nav ul li a {
@@ -50,11 +49,8 @@ nav ul li a {
 
 nav ul li ul {
     display: none;
-    /* border: 1px white solid; */
     position: absolute;
     top: 68px;
-    /* width: inherit; */
-    /* width: 13%; */
 }
 
 nav ul li:hover ul,
@@ -63,7 +59,6 @@ nav ul li ul li:hover {
 }
 
 li ul {
-    /* display: none; */
     position: absolute;
     background-color: var(--page-back);
     border-radius: 0px 0px 10px 10px;
@@ -121,7 +116,7 @@ img {
 }
 
 .logo img,
-.menu-button img {
+.menu-elems img {
     width: 32px;
     height: 32px;
     border-radius: 0;
@@ -133,6 +128,14 @@ img {
     position: absolute;
     right: 15px;
     top: 15px;
+}
+
+a .fa-arrow-turn-right {
+    display: none;
+}
+
+a .fa-arrow-turn-down {
+    display: inline;
 }
 
 
@@ -175,25 +178,4 @@ textarea {
 .comment {
     word-wrap: break-word;
     font-size: 1.5rem;
-    /* border-radius: 10px; */
-    /* background-color: var(--card-back); */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* width: 70%; */
-    /* max-width: 80%; */
-    /* min-width: 50%; */
-    /* padding: 15px 15px; */
-    /* font-family: "El Messiri", sans-serif; */
-    /* margin-top: 60px; */
-    /* text-align: center; */
-}
-
-a .fa-arrow-turn-right {
-    display: none;
-}
-
-a .fa-arrow-turn-down {
-    display: inline;
 }

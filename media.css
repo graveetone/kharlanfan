@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@media only screen and (max-width: 1100px) {
+    .flex-container li {
+        display: flex;
+    }
+    .menu-elems {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 977px) {
     .sm {
         font-size: 0.5rem;
@@ -18,33 +28,32 @@
         width: auto;
         background-color: var(--page-back);
     }
-    .flex-container header ul {
-        align-items: center;
+    header li {
+        justify-content: center;
     }
     .flex-container li {
         width: 100%;
         display: none;
-        /* border-bottom: 1px white solid; */
     }
-    nav {
-        background-color: transparent;
-    }
-    .menu-button {
+    .menu-elems {
         margin: 15px;
-        width: 50%;
-        height: 50%;
+        width: 65%;
         position: fixed;
-        right: 0;
-        top: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "El Messiri", Arial, Helvetica, sans-serif;
+        font-size: 34px;
+        text-align: center;
+        color: white;
+    }
+    nav ul:nth-child(2) {
+        position: relative;
     }
     nav ul li ul {
-        /* display: none; */
-        border: 1px white solid;
-        position: absolute;
-        top: 68px;
-        left: 150px;
-        /* width: inherit; */
-        /* width: 13%; */
+        top: 0px;
+        left: 10px;
     }
     a .fa-arrow-turn-right {
         display: inline;
