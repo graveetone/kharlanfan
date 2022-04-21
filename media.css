@@ -1,64 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-@media only screen and (max-width: 1100px) {
-    .flex-container li {
-        display: flex;
-    }
-    .menu-elems {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 977px) {
-    .sm {
-        font-size: 0.5rem;
-    }
-    .md {
-        font-size: 1rem;
-    }
-    .lg {
-        font-size: 1.5rem;
-    }
-    .xl {
-        font-size: 2.5rem;
-    }
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        min-width: 60%;
-        width: auto;
-        background-color: var(--page-back);
-    }
-    header li {
-        justify-content: center;
-    }
-    .flex-container li {
-        width: 100%;
-        display: none;
-    }
-    .menu-elems {
-        margin: 15px;
-        width: 65%;
-        position: fixed;
-        z-index: 1;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-family: "El Messiri", Arial, Helvetica, sans-serif;
-        font-size: 34px;
-        text-align: center;
-        color: white;
-    }
-    nav ul:nth-child(2) {
-        position: relative;
-    }
-    nav ul li ul {
-        top: 0px;
-        left: 10px;
-    }
-    a .fa-arrow-turn-right {
-        display: inline;
-    }
-    a .fa-arrow-turn-down {
-        display: none;
-    }
-}
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+        @media only screen and (max-width: 1100px) {
+            .flex-container li {
+                display: flex;
+            }
+            .menu-elems {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 977px) {
+            .sm {
+                font-size: 0.5rem;
+            }
+            .md {
+                font-size: 1rem;
+            }
+            .lg {
+                font-size: 1.5rem;
+            }
+            .xl {
+                font-size: 2.5rem;
+            }
+            .flex-container {
+                display: flex;
+                flex-direction: column;
+                min-width: 60%;
+                width: auto;
+                background-color: var(--page-back);
+            }
+            header li {
+                justify-content: center;
+            }
+            .flex-container li {
+                width: 100%;
+                display: none;
+            }
+            .menu-elems {
+                margin: 15px;
+                width: 65%;
+                position: fixed;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-family: "El Messiri", Arial, Helvetica, sans-serif;
+                font-size: 34px;
+                text-align: center;
+                color: white;
+            }
+            nav ul:nth-child(2) {
+                position: relative;
+            }
+            nav ul li ul {
+                top: 0px;
+                left: 10px;
+            }
+            a .fa-arrow-turn-right {
+                display: inline;
+            }
+            a .fa-arrow-turn-down {
+                display: none;
+            }
+            .contacts {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                color: white;
+                align-items: center;
+                margin-top: 50px;
+            }
+            .contacts iframe {
+                /* margin: 100px; */
+                width: 100%;
+                height: 400px;
+            }
+            .contact_info i {
+                padding-left: 40px;
+            }
+            .contact_info {
+                display: flex;
+                flex-direction: row;
+                /* margin: 20px; */
+                align-items: center;
+                justify-content: center;
+                /* padding: 10px; */
+            }
+        }
+        
+        @media only screen and (max-width: 400px) {
+            .menu-elems h4 {
+                font-size: 1.5rem;
+            }
+            .news-alert h2 {
+                font-size: 1rem;
+            }
+        }

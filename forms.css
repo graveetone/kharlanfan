@@ -45,7 +45,7 @@ textarea {
 
 .comment-text {
     /* display: flex; */
-    padding: 15px;
+    padding: 10px;
     /* word-wrap: break-word; */
     text-align: center;
     /* justify-content: center; */
@@ -55,7 +55,7 @@ textarea {
 
 .comment {
     display: flex;
-    padding: 15px;
+    /* padding: 15px; */
     /* word-wrap: break-word; */
     overflow-wrap: break-word;
     flex-direction: column;
@@ -72,11 +72,14 @@ textarea {
 
 .additional {
     display: flex;
-    justify-content: space-around;
+    margin: 15px;
+    /* padding: 100px; */
+    justify-content: space-between;
 }
 
 .date {
-    text-align: center;
+    /* text-align: center; */
+    padding-right: 15px;
 }
 
 * {

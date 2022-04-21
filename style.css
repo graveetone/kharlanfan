@@ -137,3 +137,46 @@ a .fa-arrow-turn-right {
 a .fa-arrow-turn-down {
     display: inline;
 }
+
+.news-alert {
+    /* text-align: center; */
+    /* color: white; */
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    font-family: "El Messiri";
+    /* border: 1px solid white; */
+    background-color: var(--card-back);
+    height: 30px;
+    z-index: 10;
+    position: fixed;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.contacts iframe {
+    margin: 20px;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.contact_info i {
+    color: white;
+}
+
+.contact_info i:hover {
+    color: red;
+}

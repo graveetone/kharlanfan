@@ -22,7 +22,7 @@
         <div class="menu-wrap">
             <div class="menu-elems">
                 <img src="static/menu.png" alt="">
-                <h4 style="color:wheat;">Ольга Харлан</h4>
+                <h4>Ольга Харлан</h4>
             </div>
 
             <nav>
@@ -50,6 +50,9 @@
                 </ul>
             </nav>
         </div>
+        <div id='news_alert' class="top-bottom-slide news-alert">
+            <h2>Новина була опублікована!</h2>
+        </div>
     </header>
     <main>
 
@@ -57,11 +60,12 @@
             <h2> Додати новину </h2>
             <div class="form">
                 <form action="">
-                    <!-- <img id="preview" -->
-                    <input type="file" accept="image/png, image/jpeg, image/jpg">
-                    <input class="txt" type="text" id='title' placeholder="Назва новини"> <br>
-                    <textarea class="txt" name="" id="news" rows="10" placeholder="Текст новини"></textarea> <br>
-                    <input type="button" id='submit' class="btn btn-dark p-2" value="Опублікувати"><br>
+                    <img id="preview" src='static/default.jpg' alt="Preview">
+                    <br>
+                    <input id='photo' type="file" accept="image/png, image/jpeg, image/jpg">
+                    <input class="news_txt" type="text" id='title' placeholder="Назва новини"> <br>
+                    <textarea class="news_txt" name="" id="news" rows="10" placeholder="Текст новини"></textarea> <br>
+                    <input type="button" id='submit_news' class="btn btn-dark p-2" value="Опублікувати"><br>
                 </form>
             </div>
         </div>
@@ -82,5 +86,7 @@
     </footer>
 </body>
 <script src="script.js"></script>
+<script src="admin.js"></script>
+<!-- <script src="comments.js"></script> -->
 
 </html>
