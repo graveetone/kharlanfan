@@ -1,0 +1,80 @@
+.card-fans {
+    /* border-radius: 10px; */
+    /* background-color: var(--card-back); */
+    display: block;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 70%; */
+    /* padding: 15px 15px; */
+    /* font-family: "El Messiri", sans-serif; */
+    /* font-size: 2em; */
+    /* margin-top: 60px; */
+    /* text-align: center; */
+}
+
+form input[type='text'],
+textarea {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1.3rem;
+    padding: 10px;
+    border: 1px solid var(--page-back);
+    background-color: var(--card-back);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input[type='text']:focus,
+textarea:focus {
+    outline: 1px solid var(--page-back);
+}
+
+textarea {
+    /* display: inline; */
+}
+
+.comments {
+    display: flex;
+    /* align-items: center; */
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.comment-text {
+    display: flex;
+    padding: 20px;
+    word-wrap: break-word;
+    /* text-align: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 50%;
+    background-color: var(--card-back);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    /* justify-content: center; */
+    /* justify-self: center; */
+    font-size: 1.2rem;
+}
+
+.additional {
+    display: flex;
+    justify-content: space-around;
+}
+
+.date {
+    text-align: center;
+}
+
+* {
+    /* border: 1px solid white; */
+}
