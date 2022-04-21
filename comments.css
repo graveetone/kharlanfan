@@ -45,7 +45,7 @@ textarea {
 
 .comment-text {
     /* display: flex; */
-    padding: 20px;
+    padding: 2%;
     /* word-wrap: break-word; */
     /* text-align: center; */
     /* justify-content: center; */
@@ -55,10 +55,11 @@ textarea {
 
 .comment {
     display: flex;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
     flex-direction: column;
     /* min-width: 300px; */
-    width: 80%;
+    max-width: 80%;
     /* height: auto; */
     background-color: var(--card-back);
     border-radius: 10px;
