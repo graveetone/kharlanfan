@@ -10,6 +10,31 @@ function getFormattedDateTime() {
     return [dd + '.' + mm + '.' + yyyy, h + ':' + m];
 }
 
+function Validate(element) { // true if valid
+    // let is_valid = true;
+    return !(element.value.trim().length === 0)
+}
+
+function ResetFields() {
+    for (element of document.getElementsByClassName('txt')) {
+        element.value = "";
+    }
+}
+
+function IsAllValid() {
+    let is_valid = true;
+    for (element of document.getElementsByClassName('txt')) {
+        if (!Validate(element)) {
+            element.classList.add("red-lighter");
+            is_valid = false;
+        } else {
+            element.classList.remove("red-lighter");
+
+        }
+    }
+    return is_valid;
+}
+
 function makeComment(username, comment_text) {
     let date_time = getFormattedDateTime();
     const comment_template =
@@ -25,7 +50,10 @@ function makeComment(username, comment_text) {
     let new_comment = document.createElement("div");
     new_comment.innerHTML = comment_template;
     new_comment.classList.add("comment");
-    document.getElementsByClassName("comments")[0].prepend(new_comment); //innerHTML += comment_template;
+    if (IsAllValid()) {
+        document.getElementsByClassName("comments")[0].prepend(new_comment); //innerHTML += comment_template;
+        ResetFields();
+    }
 }
 
 submit.addEventListener("click", () => { makeComment(nickname.value, comment.value) });

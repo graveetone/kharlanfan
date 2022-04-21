@@ -44,20 +44,22 @@ textarea {
 }
 
 .comment-text {
-    display: flex;
+    /* display: flex; */
     padding: 20px;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     /* text-align: center; */
-    justify-content: center;
+    /* justify-content: center; */
     /* flex-direction: column; */
     /* flex-wrap: wrap; */
 }
 
 .comment {
     display: flex;
+    word-wrap: break-word;
     flex-direction: column;
-    min-width: 300px;
-    width: 50%;
+    /* min-width: 300px; */
+    width: 80%;
+    /* height: auto; */
     background-color: var(--card-back);
     border-radius: 10px;
     margin-bottom: 50px;
