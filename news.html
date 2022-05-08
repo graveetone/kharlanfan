@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="forms.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -18,13 +19,16 @@
 <body>
     <header>
         <div class="menu-wrap">
-            <div class="menu-button">
+            <div class="menu-elems">
                 <img src="static/menu.png" alt="">
+                <h4>Ольга Харлан</h4>
             </div>
+
             <nav>
                 <ul class="flex-container">
                     <li><a class="hover-flip" href="index.html">Головна</a></li>
-                    <li><a href="#">Турніри <b> <em>></em> </b></a>
+                    <li><a href="#">Турніри <i class="fa-solid fa-arrow-turn-down"></i>
+                        <i class="fa-solid fa-arrow-turn-right"></i></a>
                         <ul class="submenu-wrap">
                             <li><a class="hover-flip" href="timetable.html">Розклад</a></li>
                             <li><a class="hover-flip" href="raiting.html">Рейтинг</a></li>
@@ -41,9 +45,14 @@
                 </ul>
             </nav>
         </div>
+        <div id='news_alert' class="top-bottom-slide news-alert">
+        </div>
     </header>
+    
     <main>
-
+        <div class="comments">
+    </div>
+        <!-- </div> -->
     </main>
     <footer class="footer m-3 bg-dark py-3">
         <div class="flex">
@@ -61,5 +70,7 @@
     </footer>
 </body>
 <script src="script.js"></script>
+<!-- <script src="comments.js"></script> -->
+<script src="news.js"></script>
 
 </html>
