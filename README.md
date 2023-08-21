@@ -1,8 +1,10 @@
 # kharlanfan
 Fan-website dedicated to ukrainian fencer Olha Kharlan
 
-<h1>How it looks like</h1>
-![image](https://github.com/graveetone/kharlanfan/assets/98279909/8519c7f9-cf12-4b96-87af-7d7aecc32a63)![image](https://github.com/graveetone/kharlanfan/assets/98279909/d1f55241-01f0-4d78-b627-48b98d983881)
+# How it looks like
+![image](https://github.com/graveetone/kharlanfan/assets/98279909/8519c7f9-cf12-4b96-87af-7d7aecc32a63)
+<br>
+![image](https://github.com/graveetone/kharlanfan/assets/98279909/d1f55241-01f0-4d78-b627-48b98d983881)
 <br>
 ![image](https://github.com/graveetone/kharlanfan/assets/98279909/f57b5ffc-626c-4484-973e-71e175d261c8)
 <br>
